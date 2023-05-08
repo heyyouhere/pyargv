@@ -1,7 +1,5 @@
 from sys import argv
 
-ARG_TYPES =('flag', 'function')
-
 class argvHandler:
     def __init__(self):
         self.args = argv
@@ -52,7 +50,6 @@ class argvHandler:
 if __name__ == '__main__':
     # python3 pyargvs -f -s hello -m hello world -n include_me
     handler = argvHandler()
-
     @handler.setFlag('-f')
     def bar():
         print('-f >> ', end='')
