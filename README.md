@@ -13,4 +13,4 @@ $  python3 pyargv.py -f -s hello -m hello world -n include_me
 
 ## TODO
 1. __Usage__ method, thats sets string as default output after "-h" tag and before raise of Exception.
-2. __Unkown_Flag__ optional method to detect flags that raises Exception if some unknown flag was given.
+2. __Unkown_Flag__ optional method that raises Exception if some unknown flag was given.
