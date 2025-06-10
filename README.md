@@ -1,7 +1,7 @@
 # Python argv parser
 
 
-Yet another argv parser written by me. Just to make my own life easier.
+Yet another args parser.
 Showcase:
 ``` console
 $  python3 pyargv.py -f -s hello -m hello world -n include_me
